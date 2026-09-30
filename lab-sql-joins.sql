@@ -90,7 +90,8 @@ i.store_id
 FROM film AS f
 JOIN inventory AS i 
 ON f.film_id = i.film_id
-WHERE f.title = 'Academy Dinosaur';
+WHERE f.title = 'Academy Dinosaur'
+AND i.store_id = 1;
 
 -- ejercicio 8
 SELECT DISTINCT
